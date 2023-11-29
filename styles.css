@@ -1,0 +1,94 @@
+body{
+    background: grey;
+}
+.container{
+    background: white;
+    border-radius: 10px;
+    display: grid;
+    margin: 0 30%;
+    margin-top: 2%;
+    padding-bottom: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.expenseHeading{
+    color: black;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+.content{
+    display: grid;
+    justify-items: center;
+    padding: 2% 10% 0 10%;
+}
+.content label{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px ;
+}
+input[type]{
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-bottom: 5%;
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    background: white;
+}
+.content button{
+    color: white;
+    background: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 50%;
+    height: 30px;
+    margin-top: 2% ;
+}
+.content button:hover{
+    background: grey;
+    color: black;
+    border: none;
+}
+
+/* Table.css */
+
+.f-table{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    padding: 0 10%;
+    margin: 0 10%;
+    margin-top: 2%;
+    padding: 2% 10%;
+    margin-bottom: 10%;
+    
+}
+table {
+    background: white;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+thead{
+    color: black;
+    background: grey;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+#expenseTable tbody tr:hover{
+    background: rgb(57, 56, 56);
+    color: white;
+    font-weight: bold;
+}
+.i-table{
+    background: grey;
+    color: black;
+    font-weight: bold;
+}

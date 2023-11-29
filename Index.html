@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <script src="script.js"></script>   
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="expenseHeading">
+            <p>Expense Tracker</p>
+        </div>
+
+        <div class="content">
+            <label for="expense">Enter Expense:</label>
+            <input type="text" id="expense">    
+
+            <label for="amount">Enter Amount:</label>
+            <input type="number" id="amount">
+
+                <button type="submit" onclick="addToTable()">Submit</button>
+        </div>
+    </div>
+
+    <!-- Table  -->
+    <div class="f-table"><!---f-table (full-table) -->
+        <table class="i-table">
+            <tr>
+                <th>My Expenses</th>
+            </tr>
+        </table>
+        <table id="expenseTable">
+            <thead>
+                <tr>
+                    <th>Sr. No</th>
+                    <th>Expense</th>
+                    <th>Amount</th>
+                    <th>Date & Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table content will go here -->
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
